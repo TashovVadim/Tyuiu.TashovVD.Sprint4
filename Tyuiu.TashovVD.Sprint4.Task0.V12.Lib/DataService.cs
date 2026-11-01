@@ -11,8 +11,10 @@ namespace Tyuiu.TashovVD.Sprint4.Task0.V12.Lib
 
             for (int i = 0; i < array.Length; i++)
             {
-                res *= array[i];
-                i++;
+                if (array[i] % 2 == 0) {
+                    res *= array[i];
+                }
+                
             }
 
             return res;
