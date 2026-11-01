@@ -10,7 +10,7 @@ namespace Tyuiu.TashovVD.Sprint4.Task2.V7.Test
         {
             int[] arr = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 };
 
-            int wait = 1;
+            int wait = 0;
 
             DataService ds = new DataService();
 
